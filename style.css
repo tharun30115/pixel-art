@@ -8,6 +8,7 @@
   body {
     background-color: #f4c531;
   }
+
   .wrapper {
     background-color: #ffffff;
     width: 80vmin;
@@ -18,12 +19,15 @@
     padding: 40px 20px;
     border-radius: 8px;
   }
+
   label {
     display: block;
   }
+
   span {
     position: relative;
     font-size: 22px;
+    
     bottom: -1px;
   }
   .opt-wrapper {
@@ -32,12 +36,14 @@
     margin-bottom: 20px;
     gap: 10px;
   }
+
   button {
     background-color: #f4c531;
     border: none;
     border-radius: 5px;
     padding: 5px;
   }
+
   input[type="color"] {
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -48,22 +54,27 @@
     border: none;
     cursor: pointer;
   }
+
   input[type="color"]::-webkit-color-swatch {
     border-radius: 8px;
     border: 4px solid #000000;
   }
+
   input[type="color"]::-moz-color-swatch {
     border-radius: 8px;
     border: 4px solid #000000;
   }
+
   .gridCol {
     height: 1em;
     width: 1em;
     border: 1px solid #ddd;
   }
+
   .gridRow {
     display: flex;
   }
+  
   @media only screen and (max-width: 768px) {
     .gridCol {
       height: 0.8em;
