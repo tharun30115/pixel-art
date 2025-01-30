@@ -4,11 +4,9 @@
     box-sizing: border-box;
     font-family: "Roboto Mono", monospace;
   }
-
   body {
     background-color: #f4c531;
   }
-
   .wrapper {
     background-color: #ffffff;
     width: 80vmin;
@@ -74,7 +72,7 @@
   .gridRow {
     display: flex;
   }
-  
+
   @media only screen and (max-width: 768px) {
     .gridCol {
       height: 0.8em;
